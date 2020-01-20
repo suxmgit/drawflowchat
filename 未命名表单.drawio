@@ -1,192 +1,26 @@
-<mxfile host="www.draw.io" modified="2019-11-18T06:49:30.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="hzBbK4c3IPyOs5qyfTV5" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2020-01-20T11:00:50.433Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="5zv8XLRVU0K9lCH0Xtf1" version="12.5.5" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1024" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1024" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="3" value="PHP" style="swimlane;whiteSpace=wrap;startSize=23;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="445" y="60" width="630" height="760" as="geometry"/>
+        <mxCell id="bo6-_9pq4a2fclOm_5sS-16" value="user模块" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="140" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="13" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="3" vertex="1">
-          <mxGeometry x="65" y="40" width="30" height="30" as="geometry"/>
+        <mxCell id="bo6-_9pq4a2fclOm_5sS-17" value="user表" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="bo6-_9pq4a2fclOm_5sS-16">
+          <mxGeometry y="22" width="140" height="78" as="geometry"/>
         </mxCell>
-        <mxCell id="14" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" parent="3" source="13" target="15" edge="1">
-          <mxGeometry x="40" y="20" as="geometry">
-            <mxPoint x="55" y="90" as="targetPoint"/>
-          </mxGeometry>
+        <mxCell id="bo6-_9pq4a2fclOm_5sS-20" value="问卷模块" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="190" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="15" target="b-QFcm2JvLzsRYaDSQOh-43">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="bo6-_9pq4a2fclOm_5sS-21" value="user_questionnaire(用户答题表)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="bo6-_9pq4a2fclOm_5sS-20">
+          <mxGeometry y="22" width="190" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.386;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="15" target="16">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="bo6-_9pq4a2fclOm_5sS-22" value="Row 2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="bo6-_9pq4a2fclOm_5sS-20">
+          <mxGeometry y="48" width="190" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="15" value="接⼝地址为&#xa;&#xa;/apis/user/loginjingdong" style="fillColor=#fff2cc;strokeColor=#d6b656;" parent="3" vertex="1">
-          <mxGeometry x="10" y="110" width="150" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="16" target="b-QFcm2JvLzsRYaDSQOh-49">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="83" y="280" as="sourcePoint"/>
-            <mxPoint x="83" y="310" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="16" value="接⼝为两个&#xa;1./apis/fifission/draw-bind-reward&#xa;（⼊会奖领取）&#xa;2./apis/fifission/draw-ladder-award&#xa;阶梯奖励领取 " style="align=left;fillColor=#fff2cc;strokeColor=#d6b656;" parent="3" vertex="1">
-          <mxGeometry x="10" y="190" width="190" height="90" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-43" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.7906pt&quot;&gt;&lt;b&gt;修改内容：&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;在&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;logic&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;⽅法的&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;jdMemberSign&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;⾥增加&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;⼀个返回参数&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;information_updated_at&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;（会员个⼈信&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;息更新时间） &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10.7906pt&quot;&gt;&lt;b&gt;根据注释可查：&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;增加⼀个返回参数&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;information_updated_at&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3">
-          <mxGeometry x="200" y="40" width="320" height="90" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-49" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.7906pt&quot;&gt;&lt;b&gt;修改内容：&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;增加了⽤户&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;token&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;传递参数&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11.51px&quot;&gt;jdToken&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10.7906pt&quot;&gt;&lt;b&gt;根据注释可查：&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;增加&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;jd&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;⽤户&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;token&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;参数&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3">
-          <mxGeometry x="235" y="150" width="247" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="b-QFcm2JvLzsRYaDSQOh-52" target="b-QFcm2JvLzsRYaDSQOh-54">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="81" y="370" as="sourcePoint"/>
-            <mxPoint x="81" y="400" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-52" value="&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;进⼊&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;Activitylogic&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;的⽅法&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;drawBindReward&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;和&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;drawInviteReward&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3">
-          <mxGeometry x="10" y="310" width="190" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-54" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.7906pt&quot;&gt;&lt;b&gt;修改内容：&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;1.&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;增加京⾖礼品相关状态常量定义&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;2.&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;增加&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;jd&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;⽤户&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;token&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;参数传递 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10.7906pt&quot;&gt;&lt;b&gt;根据注释可查：&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;京⾖礼品发放&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3">
-          <mxGeometry x="239" y="240" width="241" height="70" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.015;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="b-QFcm2JvLzsRYaDSQOh-56" target="b-QFcm2JvLzsRYaDSQOh-58">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="460" as="sourcePoint"/>
-            <mxPoint x="80" y="500" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-56" value="&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;进⼊礼品类型奖励领取⽅法&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;grantGiftReward&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;（此⽅法两个&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;领奖接⼝共⽤）&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3">
-          <mxGeometry x="10" y="400" width="190" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-58" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.7906pt&quot;&gt;&lt;b&gt;修改内容：&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;1.&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;增加京⾖礼品相关常量定义&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;2.&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;礼品查询增加京⾖相关的查询字段，对于京东优惠券，⾸先 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;增加查询可⽤&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;cdkeys&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;的⽅法，然后增加⼀条插⼊&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;gift_order&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;表的 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;记录，再更新&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;cdkeys&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;的状态为已发放，同时转换&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;cdkeys&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;为京东 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;优惠券兑换链接返回&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;增加京⾖发放⽅法&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;send_jd_bean&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;，判断当为京⾖礼品类型时 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;调⽤此⽅法 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10.7906pt&quot;&gt;&lt;b&gt;根据注释可查：&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;1.&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;京⾖礼品发放&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt; 2.&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;这⾥加⼊京东优惠券处理&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt; 3.&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;这⾥做个京⾖发 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;放的逻辑&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3">
-          <mxGeometry x="240" y="320" width="340" height="170" as="geometry"/>
-        </mxCell>
-        <mxCell id="2" value="前端" style="swimlane;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="3" vertex="1">
-          <mxGeometry x="-330" width="330" height="740" as="geometry"/>
-        </mxCell>
-        <mxCell id="5" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="2" vertex="1">
-          <mxGeometry x="100" y="40" width="30" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="6" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="5" target="7" edge="1">
-          <mxGeometry x="100" y="40" as="geometry">
-            <mxPoint x="115" y="110" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7" value="⽤户绑卡成功后 &#xa;登录京东 " style="fillColor=#fff2cc;strokeColor=#d6b656;" parent="2" vertex="1">
-          <mxGeometry x="60" y="110" width="110" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="8" value="领取奖励 " style="fillColor=#fff2cc;strokeColor=#d6b656;" parent="2" vertex="1">
-          <mxGeometry x="60" y="210" width="110" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="9" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="7" target="8" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="7" target="15">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="8" target="16">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="b-QFcm2JvLzsRYaDSQOh-62" target="b-QFcm2JvLzsRYaDSQOh-64">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="b-QFcm2JvLzsRYaDSQOh-62" target="b-QFcm2JvLzsRYaDSQOh-66">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="105" y="570"/>
-              <mxPoint x="-64" y="570"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-68" value="&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;定义⼀些⽀持⽅法和配置&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="b-QFcm2JvLzsRYaDSQOh-67">
-          <mxGeometry x="0.2267" y="1" relative="1" as="geometry">
-            <mxPoint x="27" as="offset"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.41;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="106" y="560" as="sourcePoint"/>
-            <mxPoint x="105" y="588" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="b-QFcm2JvLzsRYaDSQOh-62" target="b-QFcm2JvLzsRYaDSQOh-71">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="105" y="576"/>
-              <mxPoint x="280" y="576"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="105" y="556" as="sourcePoint"/>
-            <mxPoint x="505" y="596" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="105" y="576"/>
-              <mxPoint x="505" y="576"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="b-QFcm2JvLzsRYaDSQOh-62" target="b-QFcm2JvLzsRYaDSQOh-75">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-225" y="530"/>
-              <mxPoint x="-225" y="710"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-62" value="发京豆里有获得商家id，故进入MerchantLogic类的getInfo方法" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3">
-          <mxGeometry x="10" y="500" width="190" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-64" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;修改内容：&lt;/font&gt;&lt;/b&gt;增加判断当为京东平台时，若是从数据库中获取的seller_id为0时，那么从京东接口查询商家id，同时更新数据库和缓存&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;根据注释可查：&lt;/font&gt;&lt;/b&gt;这里增加京东平台时当sellerid" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3">
-          <mxGeometry x="240" y="500" width="330" height="70" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-66" value="&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;model&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;模块&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;ActRewardGrantLog&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;类中增加&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;getUserHasBeanReward&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;⽅ &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;法，此⽅法时判断京⾖领取资 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;格&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3">
-          <mxGeometry x="-160" y="586" width="192" height="70" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-69" value="&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;增加模型类&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;GiftCdkeys&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;和&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;GiftTypeCtz&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;来⽤于查 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;询&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3">
-          <mxGeometry x="55" y="588" width="120" height="64" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-71" value="&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;在&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;jdlogic&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;类⾥增加&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;个京东接 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;⼝调⽤⽅法，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;getSellerVenderInfo&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;（获取商 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;家信息）、&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;popBeanSendBean&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;（给⽤户 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;发京⾖）&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3">
-          <mxGeometry x="190" y="596" width="180" height="84" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-73" value="&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;1.&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;增加&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;confifig&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;配置⽂件&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;giftType.php&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;⽂ &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;件，⾥⾯增加京⾖礼品类型&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;id&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;2.&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;在&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;confifig&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;配置⽂件&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;jdInfo.php&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;中增加 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;京东优惠券券码转换前缀&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;在&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;confifig&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;配置⽂件&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;statusCode.php&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;中增加京⾖发放次数超限制的状态码&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;4.&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;在&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;message.php&lt;/span&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;提示信息⽂件⾥增 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;加京⾖相关报错提示信息&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3">
-          <mxGeometry x="380" y="597" width="250" height="120" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="b-QFcm2JvLzsRYaDSQOh-75" target="b-QFcm2JvLzsRYaDSQOh-79">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="193" y="710"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-81" value="否" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="b-QFcm2JvLzsRYaDSQOh-80">
-          <mxGeometry x="-0.3644" relative="1" as="geometry">
-            <mxPoint as="offset"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-75" value="&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;发放礼品成功&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3">
-          <mxGeometry x="45" y="670" width="80" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-79" value="&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;记录错误⽇志，返回 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;错误信息&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3">
-          <mxGeometry x="193" y="700" width="137" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-77" value="&lt;div&gt;&lt;span style=&quot;font-size: 8.63252pt&quot;&gt;返回成功，结束&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="464" y="840" width="120" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="b-QFcm2JvLzsRYaDSQOh-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.55;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="b-QFcm2JvLzsRYaDSQOh-75" target="b-QFcm2JvLzsRYaDSQOh-77">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="bo6-_9pq4a2fclOm_5sS-23" value="Row 3" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="bo6-_9pq4a2fclOm_5sS-20">
+          <mxGeometry y="74" width="190" height="26" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
