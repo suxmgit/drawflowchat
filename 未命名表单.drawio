@@ -1,26 +1,32 @@
-<mxfile host="www.draw.io" modified="2020-01-20T11:00:50.433Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="5zv8XLRVU0K9lCH0Xtf1" version="12.5.5" type="github">
+<mxfile host="www.draw.io" modified="2020-02-01T06:55:06.520Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="VYrNEmMTFbikn0bYXUBJ" version="12.6.2" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1024" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="bo6-_9pq4a2fclOm_5sS-16" value="user模块" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="bo6-_9pq4a2fclOm_5sS-16" value="会员模块" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="210" y="40" width="140" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="bo6-_9pq4a2fclOm_5sS-17" value="user表" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="bo6-_9pq4a2fclOm_5sS-16">
+        <mxCell id="bo6-_9pq4a2fclOm_5sS-17" value="users（用户表，存储注册用户）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;" parent="bo6-_9pq4a2fclOm_5sS-16" vertex="1">
           <mxGeometry y="22" width="140" height="78" as="geometry"/>
         </mxCell>
-        <mxCell id="bo6-_9pq4a2fclOm_5sS-20" value="问卷模块" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="bo6-_9pq4a2fclOm_5sS-20" value="问卷模块" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="350" y="40" width="190" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="bo6-_9pq4a2fclOm_5sS-21" value="user_questionnaire(用户答题表)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="bo6-_9pq4a2fclOm_5sS-20">
-          <mxGeometry y="22" width="190" height="26" as="geometry"/>
+        <mxCell id="bo6-_9pq4a2fclOm_5sS-21" value="questionnaire_answer_record(用户答题记录表，存储用户的每次问卷答案)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;" parent="bo6-_9pq4a2fclOm_5sS-20" vertex="1">
+          <mxGeometry y="22" width="190" height="78" as="geometry"/>
         </mxCell>
-        <mxCell id="bo6-_9pq4a2fclOm_5sS-22" value="Row 2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="bo6-_9pq4a2fclOm_5sS-20">
-          <mxGeometry y="48" width="190" height="26" as="geometry"/>
+        <mxCell id="lZ37NlDJfsxyfmmgvfQE-2" value="肌肤测试模块" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="540" y="40" width="190" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="bo6-_9pq4a2fclOm_5sS-23" value="Row 3" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="bo6-_9pq4a2fclOm_5sS-20">
-          <mxGeometry y="74" width="190" height="26" as="geometry"/>
+        <mxCell id="lZ37NlDJfsxyfmmgvfQE-3" value="skin_analysis_record (用户肌肤测试结果记录表，存储用户的每次肌肤测试结果)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;" vertex="1" parent="lZ37NlDJfsxyfmmgvfQE-2">
+          <mxGeometry y="22" width="190" height="78" as="geometry"/>
+        </mxCell>
+        <mxCell id="lZ37NlDJfsxyfmmgvfQE-5" value="推荐结果模块" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="730" y="40" width="190" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="lZ37NlDJfsxyfmmgvfQE-6" value="recommend_product (用户获取的推荐结果记录表，存储用户的每次获取的推荐结果)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;" vertex="1" parent="lZ37NlDJfsxyfmmgvfQE-5">
+          <mxGeometry y="22" width="190" height="78" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
